@@ -1,0 +1,49 @@
+<!-- 小程序中的图片都需要写这样的路径 -->
+<image class="nav" src="https://attachment-center.boxuegu.com/data/picture/online/2019/10/24/19/40c1905db99b4644a04fec33fc8031d1.jpg"></image>
+<view class="icon-list">
+        <block wx:for="{{list1}}"  wx:key="list1">
+            <view>
+                <image class="icon" src="{{ item.im }}"></image>
+                <view>{{item.name}}</view>
+            </view>
+        </block>
+       <!-- <view>
+           <image class="icon" src="https://m.boxuegu.com/web/images/index/course.png"></image>
+           <text>课程</text>
+       </view>
+       <view>
+            <image class="icon" src="https://m.boxuegu.com/web/images/index/mircoCourse.png"></image>
+            <text>课程</text>
+        </view>
+        <view>
+            <image class="icon" src="https://m.boxuegu.com/web/images/index/freeMicroCourse.png"></image>
+            <text>课程</text>
+        </view>
+        <view>
+            <image class="icon" src="https://m.boxuegu.com/web/images/index/courseType.png"></image>
+            <text>课程</text>
+        </view> -->
+</view>
+<!-- 列表 -->
+<view class="list">
+    <view class="list-nav">
+        <view>| 就业课</view>
+        <view>更多 ></view>
+    </view>
+    <block wx:for="{{list2}}" wx:key="for">
+            <view class="list-list">
+                    <view class="list-left">
+                        <image class="img" src="{{item.image}}"></image>
+                    </view>
+                    <view class="list-right">
+                        <view>{{item.lanage}}</view>
+                        <view>{{item.introduce}}</view>
+                        <view class="list-right-bottom">
+                            <view>{{item.peoples}}</view>
+                            <view class="list-money">{{item.money}}</view>
+                        </view>
+                    </view>
+                </view>
+    </block>
+   
+</view>

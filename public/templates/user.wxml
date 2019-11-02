@@ -1,0 +1,7 @@
+<template name="user">
+    <view>
+            <view>ID：{{user.id}}</view>
+            <view>NAME：{{user.name}}</view>
+            <view>AGE：{{user.age}}</view>
+    </view>
+</template>

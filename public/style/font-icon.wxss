@@ -1,0 +1,24 @@
+@font-face {font-family: "iconfont";
+    src: url('//at.alicdn.com/t/font_1489509_8yyhy7ld9pj.eot?t=1572697654581'); /* IE9 */
+    src: url('//at.alicdn.com/t/font_1489509_8yyhy7ld9pj.eot?t=1572697654581#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAL0AAsAAAAABsQAAAKmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqBUIFWATYCJAMICwYABCAFhG0HMBv8BcgekiRFCgR7iuCsBAkA8fDf2rP7ZmeFXUQtiksik2gc+ie5ZSoh4Z2GR5Oq7d//WptT6YfM6+cNl4S31fl/Tf4uWqESeZRESteoeCaSSRu+74PL6U+gQOYB5TbH4DEBA0sDG2tSZAUSgKcwvOogd+I4gdZkXZlN24cnUJbZ4wJx3OQKlAseWRbjjVA1LM3iilKTzqYXAC5H349fMI4ySVmwi/Yd29Jh9Ss5Sblev+dogPAS2OoSBRYCmTjUGNkjJ0RKThvJmw72lR98pf9+oBN7/fNExc4dCCZSzj1xPd6t5iaQk86dwOFRM0kL8Lp+7lZE68aNll4zOlc9d28Mfzo/6jRz+3bXnb/J4Zu9G22bfPORrqhKjqDh3v3RZ3qXN3VxCpqxZOhKrny3+X37d323rrzer+bqD6cfnNzY2KhfHBRFNztm/XrsUPu5Xvna3P0/45fczImhelr+ECq1beklvzvo9Dj15ffv+l7zsLlXWwfQf148y637sb/xajJJlVqr/spdBu9/botc/ecZZgPN6a3Bb+SCDdng29qUNW6jLdk5amxCq0Uf5xjufaxi1D0nQmPUndtqkzIoNGaimVwIpc4iqDTWQmuBndWdESI5kQdgvnsCYagXSAZ7CoWhJmgm36A02i9UhkYOWkdixJad2WFWN0akCNJRvUZT8z3m6kU1zj8injhKlOdH1DOKYtOPo/6wHN8hj6I5ZsQpHwvBkEW+i9vkNHIcH4PIt0gTfUOIYH4wYE1v6mu+C1UbRYhCIDqkuoZMGp+HBe2FauXzRwiXcCiijpI66xkSiZndo5G+IYDuSDyo5F5eiaW4MUFgEBPxudA2MRHHifhQ0DzIQjRCnzEiFJg3YK0YKumvL3M/IFuswFamcPoVqhOGn1wTAAAA') format('woff2'),
+    url('//at.alicdn.com/t/font_1489509_8yyhy7ld9pj.woff?t=1572697654581') format('woff'),
+    url('//at.alicdn.com/t/font_1489509_8yyhy7ld9pj.ttf?t=1572697654581') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('//at.alicdn.com/t/font_1489509_8yyhy7ld9pj.svg?t=1572697654581#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-shouye:before {
+    content: "\e665";
+    /* font-size: 60px; */
+  }
+  .icon-qizi:before {
+    content: "\e75b";
+  }
